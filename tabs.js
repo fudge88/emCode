@@ -11,6 +11,15 @@ document.addEventListener('DOMContentLoaded', function () {
 	console.log(panels);
 
 	tabs.forEach((tab) => {
-		tab.addEventListener('click', () => {});
+		tab.addEventListener('click', () => {
+			// remove active class from all tabs and panel
+			tabs.forEach((tab) => {
+				tab.classList.remove('active');
+			});
+			// remove active class from all panels
+			panels.forEach((panel) => {
+				panel.classList.remove('active');
+			});
+		});
 	});
 });
