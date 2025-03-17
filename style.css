@@ -32,3 +32,13 @@ body {
 	text-align: center;
 	cursor: pointer;
 }
+
+.tabBtn.active {
+	border-top: 3px solid #08a7a6;
+	background: #ffffff;
+}
+
+.panels {
+	padding: 30px 20px;
+	background-color: #ffffff;
+}
