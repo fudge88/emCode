@@ -42,3 +42,15 @@ body {
 	padding: 30px 20px;
 	background-color: #ffffff;
 }
+
+.tabPanel {
+	display: none;
+}
+
+.tabPanel.active {
+	display: block;
+}
+
+.tabPanel h2 {
+	margin-bottom: 20px;
+}
