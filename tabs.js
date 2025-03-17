@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 			panels.forEach((panel) => {
 				panel.classList.remove('active');
 			});
+			// add active class to clicked tab and panel
+			tab.classList.add('active');
 		});
 	});
 });
